@@ -13,6 +13,9 @@ endif()
 project (ContainerPractice VERSION 0.1)
 
 add_executable(ArrayTest ArrayTest.cc)
+add_executable(DynamicArrayTest DynamicArrayTest.cc)
 
 target_include_directories(ArrayTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+target_include_directories(DynamicArrayTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
 
